@@ -1,0 +1,7 @@
+/* no-row-labels td::before {
+  content: none !important;
+}
+
+table .tdBefore {
+  display: none !important;
+} */

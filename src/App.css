@@ -1,0 +1,34 @@
+/* write your css here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0f1117;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+/* Disable repeated header labels from react-super-responsive-table */
+.no-row-labels td::before,
+.no-row-labels td::after,
+.no-row-labels td[data-label]::before {
+  content: none !important;
+  display: none !important;
+}
+
+#root {
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.homepage_bg {
+  background: url("./assets/Images/bghome.svg");
+}
