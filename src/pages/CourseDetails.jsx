@@ -13,7 +13,7 @@ const CourseDetails = () => {
 
  const handleBuyCourse = () => {
     if (token) {
-        handleBuyCourse(token, courseId, User, navigate, dispatch);
+        handleBuyCourse(token, courseId, user, navigate, dispatch);
         return;
     }
  }
